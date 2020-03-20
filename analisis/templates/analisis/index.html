@@ -2,21 +2,92 @@
 <html>
     <head>
         <title>Analisis</title>
+        <link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/bootstrap.css" %}">
     </head>
     <body>
-        <img style="width: 100%" src="{% static "analisis/img/banner_analisis.png" %}" alt="">
-        <h1>Analisis Data</h1>
-        <ul>
-            <li><a href="/" title="">Home</a></li>
-            <li><a href="/analisis" title="">Analyze</a></li>
-            <li><a href="/about" title="">About</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+          <img style="height: 30px;" src="{% static "img/logo.png" %}" alt="">
+        </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/">Home</a>
+                    </li>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="/analisis">Analyze<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/about">About Me</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+              </div>
+          </nav>
+        <div class="container">
+            <h1>Analisis Data</h1>
+            <ul>
+                <li><a href="/analisis/crawling" title="">Crawling</a></li>
+                <li><a href="/analisis/preprocessing" title="">Preprocessing</a></li>
+                <li><a href="/analisis/classification" title="">Classification</a></li>
+                <li><a href="/analisis/visualization" title="">Visualization</a></li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex dolorum officia magni quod, aperiam commodi vero. Officia aspernatur, harum dicta vel porro ipsa, similique autem sapiente dolorum nobis suscipit.
+</p>
 
-        <ul>
-            <li><a href="/analisis/crawling" title="">Crawling</a></li>
-            <li><a href="/analisis/preprocessing" title="">Preprocessing</a></li>
-            <li><a href="/analisis/classification" title="">Classification</a></li>
-            <li><a href="/analisis/visualization" title="">Visualization</a></li>
-        </ul>
+        </div>
+        <script src="{% static "vendor/jquery/jquery.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/popper/popper.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/bootstrap/bootstrap.js" %}" type="text/javascript"></script>
     </body>
 </html>
